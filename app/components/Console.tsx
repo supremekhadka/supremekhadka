@@ -47,7 +47,7 @@ const Console: React.FC = () => {
             supremekhadka:<span className='text-orange-600 ml-2 mr-5'>$</span>
             <span className='font-medium'>{entry.command}</span>
           </span>
-          <div className='ml-[11rem] whitespace-pre-line break-words'>{entry.response}</div>
+          <div className='sm:ml-[11rem] whitespace-pre-line break-words'>{entry.response}</div>
         </div>
       ))}
       <div className='mb-2 cursor-default selection:bg-orange-600'>
