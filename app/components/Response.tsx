@@ -33,7 +33,7 @@ const Response = ({ command }) => {
       )}
       
       {trimmedCommand === 'email' && (
-        <div className='selection:bg-orange-600'><br />Mail me at: <a href='mailto:supremekhadka2@gmail.com'>supremekhadka2@gmail.com</a><br /><br /></div>
+        <div className='selection:bg-orange-600'><br />Mail me at: <a className='text-orange-600 font-semibold'  href='mailto:supremekhadka2@gmail.com'>supremekhadka2@gmail.com</a><br /><br /></div>
       )}
       
       {trimmedCommand === 'contact' && (
