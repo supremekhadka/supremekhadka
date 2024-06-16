@@ -44,7 +44,7 @@ const Response = ({ command }) => {
         <div className='selection:bg-orange-600'><br />I will be uploading it soon...<br /><br /></div>
       )}
       
-      {trimmedCommand === 'cv' || trimmedCommand === 'resume' && (
+      {(trimmedCommand === 'cv' || trimmedCommand === 'resume') && (
         <div className='selection:bg-orange-600'><br />I have sent you my CV. Please check your downloads.<br /><br /></div>
       )}
 

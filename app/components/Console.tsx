@@ -28,7 +28,7 @@ const Console: React.FC = () => {
 
     if (e.currentTarget.value === 'cv' || e.currentTarget.value === 'resume') {
        const link = document.createElement('a');
-        link.href = '../../public/assets/cv-supremekhadka.pdf';
+        link.href = 'https://drive.google.com/uc?export=download&id=1uOZcxKFGFqUL7dwcs3otMgPVGZo4t_eD';
         link.download = 'Supreme_Khadka-Web_Developer-CV.pdf';
         document.body.appendChild(link);
         link.click();
