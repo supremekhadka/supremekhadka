@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Response = ({ command }) => {
-  const trimmedCommand = command.trim();
-  const validCommands = ['help', 'hello', 'email', 'contact', 'portfolio', 'cv', 'clear'];
+  const trimmedCommand = command.trim().toLowerCase();
+  const validCommands = ['help', 'hello', 'email', 'contact', 'portfolio', 'cv', 'resume', 'clear'];
   const isValidCommand = validCommands.includes(trimmedCommand);
 
   if (trimmedCommand === '') {
@@ -12,7 +12,7 @@ const Response = ({ command }) => {
   return (
     <>
       {trimmedCommand === 'help' && (
-        <div>
+        <div className='selection:bg-orange-600'>
           <br />
           Available Commands:
           <ul>
@@ -29,27 +29,27 @@ const Response = ({ command }) => {
       )}
 
       {trimmedCommand === 'hello' && (
-        <div><br />Hi, I am Supreme Khadka, an aspiring CS student, web developer, and graphics designer.<br /><br /></div>
+        <div className='selection:bg-orange-600'><br />Hi, I am Supreme Khadka, an aspiring CS student, web developer, and graphics designer.<br /><br /></div>
       )}
       
       {trimmedCommand === 'email' && (
-        <div><br />Mail me at: <a href='mailto:supremekhadka2@gmail.com'>supremekhadka2@gmail.com</a><br /><br /></div>
+        <div className='selection:bg-orange-600'><br />Mail me at: <a href='mailto:supremekhadka2@gmail.com'>supremekhadka2@gmail.com</a><br /><br /></div>
       )}
       
       {trimmedCommand === 'contact' && (
-        <div><br />Call me at: <a href="tel:+9779861584426">+977 986 158 4426</a><br /><br /></div>
+        <div className='selection:bg-orange-600'><br />Call me at: <a className='text-orange-600 font-semibold' href="tel:+9779861584426">+977 986 158 4426</a><br /><br /></div>
       )}
       
       {trimmedCommand === 'portfolio' && (
-        <div><br />I will be uploading it soon...<br /><br /></div>
+        <div className='selection:bg-orange-600'><br />I will be uploading it soon...<br /><br /></div>
       )}
       
-      {trimmedCommand === 'cv' && (
-        <div><br />I have sent you my CV. Please check your downloads.<br /><br /></div>
+      {trimmedCommand === 'cv' || trimmedCommand === 'resume' && (
+        <div className='selection:bg-orange-600'><br />I have sent you my CV. Please check your downloads.<br /><br /></div>
       )}
 
       {!isValidCommand && (
-        <div><br />Oops! Looks like we don&apos;t have that command yet. Command Not Found: {trimmedCommand}<br /><br /></div>
+        <div className='selection:bg-orange-600'><br />Oops! Looks like we don&apos;t have that command yet. Command Not Found: {command}<br /><br /></div>
       )}
     </>
   )
