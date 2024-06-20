@@ -13,7 +13,7 @@ export const LampContainer = ({
   return (
     <div
       className={cn(
-        "sm:-translate-x-[14rem] -translate-x-[3rem] pt-[10rem] w-[calc(100vw_-_0.6rem)] flex min-h-screen h-auto flex-col justify-start overflow-x-clip overflow-y-visible bg-black relative rounded-md -z-10",
+        "sm:-translate-x-[11rem] -translate-x-[3rem] pt-[10rem] w-[calc(100vw_-_0.6rem)] flex min-h-screen h-auto flex-col justify-start overflow-x-clip overflow-y-visible bg-black relative rounded-md -z-10",
         className
       )}
     >
