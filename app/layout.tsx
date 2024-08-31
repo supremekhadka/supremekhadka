@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import { Space_Mono } from "next/font/google";
 import "./globals.css";
-import Loader from "./components/Loader";
+import localFont from "next/font/local";
+import SmoothScroll from "./components/SmoothScroll";
 
-const spaceMono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"] });
+const neueRegrade = localFont({
+  src: "../public/assets/fonts/Neue Regrade Variable.ttf",
+});
 
 export const metadata: Metadata = {
   title: "Supreme Khadka",
@@ -17,9 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={spaceMono.className}>
-        <Loader />
-        {children}
+      <body className={neueRegrade.className}>
+        <SmoothScroll>{children}</SmoothScroll>
       </body>
     </html>
   );
