@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
-import { useScroll } from "framer-motion";
 
 const Navbar = () => {
-  const { scrollYProgress } = useScroll();
-
   return (
     <>
       <div
