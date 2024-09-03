@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <>
       <div
@@ -19,4 +19,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;
