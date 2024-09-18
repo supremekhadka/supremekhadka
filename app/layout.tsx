@@ -3,6 +3,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 import SmoothScroll from "./components/SmoothScroll";
 
+import PreLoader from "./components/PreLoader";
 import Header from "./components/Header";
 
 const neueRegrade = localFont({
@@ -22,8 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={neueRegrade.className}>
-        <Header />
-        <SmoothScroll>{children}</SmoothScroll>
+        <PreLoader>
+          <Header />
+          <SmoothScroll>{children}</SmoothScroll>
+        </PreLoader>
       </body>
     </html>
   );
