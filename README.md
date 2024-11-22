@@ -1,8 +1,8 @@
 <h1>Hi, I'm Supreme</h1>
 <p>
-  Frontend Developer with a keen eye for Creative Design. Currently exploring 
-  <a href="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" target="_blank" style="display: inline-block; vertical-align: middle;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" alt="golang" width="36" height="36" />
+  Frontend Developer with a keen eye for Creative Design. Currently exploring
+  <a href="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" alt="golang" width="36" height="36" style="vertical-align: middle;" />
   </a>
 </p>
 <h2>Languages and Tools I Use</h2>
