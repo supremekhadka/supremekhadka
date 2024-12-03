@@ -3,7 +3,7 @@
   Frontend Developer with a keen eye for Creative Design. Currently exploring
   <a href="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg" alt="golang" width="36" height="36" style="display: inline-block; vertical-align: middle;" />
-  </a>
+  </a>. Learning Backend.
 </p>
 <h2>Languages and Tools I Use</h2>
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="42" height="42" /></a>
