@@ -32,7 +32,7 @@
 
   
   <a target="_blank" href="https://www.mongodb.com">
-    <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg](https://images.seeklogo.com/logo-png/48/2/mongodb-logo-png_seeklogo-481256.png?v=1957221918686265648)" alt="mongodb" width="42" height="42" />
+    <img src="https://images.seeklogo.com/logo-png/48/2/mongodb-logo-png_seeklogo-481256.png?v=1957221918686265648" alt="mongodb" width="42" height="42" />
   </a>
   <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="42" height="42" />
