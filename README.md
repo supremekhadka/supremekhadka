@@ -5,9 +5,6 @@
 <h2>Languages and Tools I Use</h2>
 <p>
   
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="42" height="42" />
-  </a>
   <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42" />
   </a>
@@ -56,7 +53,9 @@
   <a target="_blank" href="https://download.blender.org/branding/community/blender_community_badge_white.svg">
     <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="42" height="42" />
   </a>
-  
+   <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="42" height="42" />
+  </a>
 </p>
 <h2>Find me at</h2>
 <p>
