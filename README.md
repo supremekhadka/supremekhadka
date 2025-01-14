@@ -1,6 +1,6 @@
 <h1>Hi, I'm Supreme</h1>
 <p>
-  Frontend Developer with a keen eye for Creative Design. Currently exploring Go(lang) and learning Backend alongside.
+  Full-stack Developer with a keen eye for Creative Design. Currently exploring Go.
 </p>
 <h2>Languages and Tools I Use</h2>
 <p>
