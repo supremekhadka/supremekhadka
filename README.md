@@ -1,6 +1,6 @@
 <h1>Hi, I'm Supreme</h1>
 <p>
-  Full-stack Developer with a keen eye for Creative Design. Currently exploring Go.
+  Full-stack Developer with a keen eye for Creative Design. Currently exploring Computer Vision (CV) and Natural Language Processing (NLP)
 </p>
 <h2>Languages and Tools I Use</h2>
 <p>
